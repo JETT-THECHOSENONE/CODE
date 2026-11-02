@@ -1,0 +1,18 @@
+{
+  "name": "same-word-game",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,magenta \"pnpm --filter @same-word/server dev\" \"pnpm --filter @same-word/client dev\"",
+    "build": "pnpm -r build",
+    "test": "pnpm --filter @same-word/server test && pnpm --filter @same-word/client test",
+    "test:e2e": "playwright test",
+    "start": "pnpm --filter @same-word/server start"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: same-word-game
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ROOM_TTL_MINUTES
+        value: 120

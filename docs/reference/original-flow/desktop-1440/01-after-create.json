@@ -1,0 +1,19 @@
+{
+  "url": "https://www.sameword.top/?r=6GHK8Q",
+  "text": "💕\n同词相遇\nSAME WORD\n房间 6GHK8Q\n🌐\n简体中文\n▾\n房间 6GHK8Q\n1 / 2 · ⏱ 30s\n房间 6GHK8Q · 每轮 30 秒\n还差 1 人即可开始\n分享房间号或邀请链接，等朋友加入。\n1\n视觉测试甲\n我 · 房主\n2\n待加入\n邀请朋友\n开始第 1 轮",
+  "buttons": [
+    "房间 6GHK8Q",
+    "🌐简体中文▾",
+    "",
+    "邀请朋友",
+    "开始第 1 轮"
+  ],
+  "inputs": 0,
+  "diagnostics": [
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Error: no_div\n    at https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:272:358\n    at r.ia (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:149:876)\n    at Vl (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:150:1121)\n    at ns (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:278:250)\n    at https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:278:301\n    at https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:150:111\n    at r.ia (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:149:876)\n    at https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8050120219852703:150:86"
+    }
+  ]
+}

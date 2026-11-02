@@ -1,0 +1,12 @@
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "sqlite"; url = env("DATABASE_URL") }
+
+model CompletedGame {
+  id          String   @id @default(cuid())
+  roomCode    String
+  mode        String
+  playerCount Int
+  rounds      Int
+  resultJson  String
+  createdAt   DateTime @default(now())
+}

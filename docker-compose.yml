@@ -1,0 +1,10 @@
+services:
+  same-word:
+    build: .
+    ports:
+      - "3001:3001"
+    environment:
+      PORT: 3001
+      CLIENT_ORIGIN: http://localhost:3001
+      ROOM_TTL_MINUTES: 120
+    restart: unless-stopped
